@@ -1,0 +1,22 @@
+{
+  "name": "redux-count-change-demo",
+  "version": "1.0.0",
+  "description": "点击加号，数字加1，点击减号，数字减1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leverz/redux-learn-demo.git"
+  },
+  "keywords": [
+    "redux"
+  ],
+  "author": "Lever",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leverz/redux-learn-demo/issues"
+  },
+  "homepage": "https://github.com/leverz/redux-learn-demo#readme"
+}
