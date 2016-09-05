@@ -10,21 +10,22 @@ const Provider = reactRedux.Provider;
 const createStore = require("./store/createStore");
 const Component = React.Component;
 const App = require("./component/app");
-const bindActionCreators = require("redux").bindActionCreators;
+// const bindActionCreators = require("redux").bindActionCreators;
 
-const store = createStore(0);
-const actions = bindActionCreators()
+const store = createStore({count: 0});
+// const actions = bindActionCreators();
 class CountDemo extends Component {
 	render(){
+		console.log(store.getState());
 		return (
 			<Provider store={store}>
 				<App />
 			</Provider>
-			)
+		)
 	}
 };
 
 render(
 	<CountDemo />,
 	document.getElementById("content")
-	);
+);

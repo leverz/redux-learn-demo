@@ -1,13 +1,9 @@
 const React = require("react");
-const Component = React.Component;
-
-class Count extends Component {
-	render() {
-		console.log(this.props);
-		return (
-			<div></div>
-			)
-	}
-}
+const Count = props => {
+	const {count} = props;
+	return (
+		<div>{count}</div>
+	)
+};
 
 module.exports = Count;

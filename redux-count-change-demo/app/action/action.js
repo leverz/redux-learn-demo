@@ -10,7 +10,7 @@ const COUNT = "COUNT";
 function addCount (count) {
 	return {
 		type: ADD_COUNT,
-		count
+		count: count
 	}
 }
 
@@ -18,14 +18,14 @@ function addCount (count) {
 function minusCount(count) {
 	return {
 		type: MINUS_COUNT,
-		count
+		count: count
 	}
 }
 
 function getCount (count) {
 	return {
 		type: COUNT,
-		count
+		count:count
 	}
 }
 
